@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'This is build $BUILD_NUMBER for demo $DEMO'
         bat 'echo This is build $BUILD_NUMBER for demo $DEMO'
+        sh 'echo "This is build $BUILD_NUMBER for demo $DEMO"'
       }
     }
 
